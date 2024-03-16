@@ -3,11 +3,11 @@ import tkinter
 # Window
 window = tkinter.Tk()
 window.minsize(width=150, height = 100)
-window.config(padx=75)
+window.config(padx=10)
 window.title("Converter")
 
 # Label
-TITLE_STYLE = ("Arial", 14, "normal")
+TITLE_STYLE = ("Arial", 10, "normal")
 NORMAL_STYLE = ("Arial", 10, "normal")
 
 label = tkinter.Label(text = "Converter Application", font = TITLE_STYLE)
